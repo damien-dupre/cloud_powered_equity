@@ -1,0 +1,25 @@
+---
+format: 
+  revealjs:
+    theme: assets/styles.scss
+    width: 1280
+    height: 720
+    logo: img/logo.jpg
+
+preload-iframes: true
+# embed-resources: true
+footer: Damien Dupré - Cloud-Powered Equity
+---
+
+#  
+
+::: {style="background-color: #ffffffbb; border-radius: 10px; padding: 5px;"}
+::: r-fit-text
+Cloud-Powered Equity
+:::
+::: r-fit-text
+Driving Student Success in Data Analytics
+:::
+Damien Dupré, DCU Business School
+:::
+
