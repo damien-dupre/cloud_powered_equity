@@ -8,13 +8,13 @@ format:
     logo: img/logo.jpg
 
 title-slide-attributes:
-    data-background-iframe: space-scroller/index.html
+    data-background-iframe: theme/space-scroller/index.html
 preload-iframes: true
 # embed-resources: true
 footer: Damien Dupré - Teaching and Learning Week 2025
 ---
 
-## About Me
+## About Me {background="#43464B"}
 
 :::: {layout="[1.5,1]"}
 ::: {#first-column}
@@ -22,7 +22,7 @@ footer: Damien Dupré - Teaching and Learning Week 2025
 :::
 
 ::: {#second-column}
-Since 2019, I'm teaching **Data Analytics** and **Statistics** at DCU Business School.
+Since 2019, I have been teaching **Data Analytics** and **Statistics** at DCU Business School.
 
 ![](https://www.dcu.ie/sites/default/files/styles/max_1300x1300/public/dcu_business_school_editor/2025-01/professional_picture.jpeg){style="border-radius:50%;"}
 :::
@@ -30,39 +30,49 @@ Since 2019, I'm teaching **Data Analytics** and **Statistics** at DCU Business S
 
 ## Diversity Issues in Data Analytics
 
-Data Analytics, and STEM domains more broadly, have a long-standing issue with diversity
+Data Analytics, and STEM domains more broadly, face persistent challenges with diversity.
 
+:::: {layout="[1,1]"}
+::: {#first-column}
 ::: {.callout-caution title="**Gender Imbalance**"}
-Women remain significantly under-represented in STEM programmes and professions.
+Women continue to be **significantly underrepresented** in STEM programmes and professions due to limited role models, implicit biases, and structural inequities.
+:::
 :::
 
+::: {#second-column}
 ::: {.callout-caution title="**Socioeconomic Disparities**"}
-Individuals from economically disadvantaged backgrounds are far less likely to pursue advanced study or careers in STEM fields.
+Individuals from economically disadvantaged backgrounds are much **less likely to pursue advanced study or careers** in STEM fields.
 :::
+:::
+::::
 
-While many factors explains these issues, some can be directly tackled in class.
+While many factors explain these issues, some can be directly tackled in class.
+
+## Teaching Data Analytics ...
+
+... Involves guiding learners to **interpret data** effectively and apply it to **informed decision-making**. 
+
+{{< li zllgguxq trigger=loop >}} This requires introducing key concepts such as data collection, cleaning, and transformation, alongside statistical methods and visualisation techniques. 
+
+{{< li zllgguxq trigger=loop >}} The teacher’s role extends beyond demonstrating tools such as Excel, SQL, Python, or Tableau but to help students understand when and why to use them.
 
 ## Teaching Data Analytics
 
-Teaching learners to make sense of data and use it for informed decision-making. 
+Building **trust and confidence in the technologies** is essential to ensure students remain engaged.
 
-It involves introducing key concepts: data collection, cleaning, and transformation, alongside statistical methods and visualisation techniques. 
+<br>
 
-The role of a teacher is not only to explain tools like Excel, SQL, Python, or Tableau but to help students understand when and why to use them.
+To increase learner adoption of the taught technologies:
 
-## Teaching Data Analytics
+{{< li umuwriak trigger=loop >}} They need to see the output before using the tool;
 
-Building trust and confidence is key to ensure that students are on board.
+{{< li umuwriak trigger=loop >}} They should be able to obtain first results quickly;
 
-To increase learners adoption or willingness to adopt:
+{{< li umuwriak trigger=loop >}} It is important to limit initial verbose and issues at set up.
 
-- Need to see the output before using the tool
-- Need to obtain first results quickly
-- Need to limit initial verbose and issues at set up
+## Technology Acceptance Model {background="#43464B"}
 
-## Technology Acceptance Model
-
-This matches with past research initiated by Fred Davis in 1989.
+This matches with past research initiated by Fred Davis and collaborators in 1989.
 
 ::: {.r-stack}
 ::: {.fragment}
@@ -141,13 +151,13 @@ digraph TAM {
 
 ## Software vs. Diversity
 
-On-premise software (i.e., installed on local computers) are barriers to facilitate learners adoption
+Locally installed software often **creates barriers** to learner adoption:
 
-:::: {layout="[1,1]"}
+:::: {layout="[1.1,0.9]"}
 ::: {#first-column}
-- Basic operations are learnt first
-- It takes time and expertise before having a convincing output
-- Installing them is usually long and fastidious, especially on older/entry level computers
+- Learners must first master basic operations;
+- It takes time and expertise before having a convincing output;
+- Installation is often lengthy and cumbersome, particularly on older or entry-level computers.
 :::
 
 ::: {#second-column}
@@ -157,45 +167,67 @@ On-premise software (i.e., installed on local computers) are barriers to facilit
 
 ## Software for Diversity
 
-Cloud-based software are usually the same as on-premise software versions but hosted on a remote computer (i.e., server) and accessible with a web browser.
+Cloud-based software mirrors traditional on-premise versions but is **hosted on remote servers and accessed through a web browser**:
 
-- They remove the installation step, can be used immediately
-- They are not dependent on the user's computer processing power
-- Final output published by other users can be access freely
+{{< li qawxkplz trigger=loop delay=3000 >}} They eliminate installation requirements and are ready for immediate use;
+
+{{< li qawxkplz trigger=loop delay=3000 >}} They are independent of the user’s local computing power;
+
+{{< li qawxkplz trigger=loop delay=3000 >}} Final outputs published by other users can be accessed freely.
 
 # Case Study 1: <br> Teaching Tableau
 
 ## Data Visualisation Dashboards
 
-Tableau (Salesforce) is a software to build interactive data visualisation dashboards like PoweBI (Microsoft) and Looker Studio (Alphabet). 
+Tableau (Salesforce) is a **platform for creating interactive data visualisation dashboards**, comparable to Power BI (Microsoft) and Looker Studio (Alphabet). 
 
-Particularly used to display COVID-19 data across the world.
+It was widely used to present COVID-19 data globally.
 
-Tableau has first been developed as a licensed on-premise software but also has an open access cloud version called "Tableau Public"
+:::: {layout="[1,2]"}
+::: {#first-column}
+![](https://www.tableau.com/sites/default/files/2022-07/Tableau%20Public%20homepage.gif)
+:::
 
-![](https://public.tableau.com/app/assets/images/tableau-public-logo-with-padding.png)
+::: {#second-column}
+Originally released as licensed on-premise software, Tableau also offers an **open-access cloud version called Tableau Public** which has now 5 million of users account created and 11 million of dashboards available online.
+:::
+::::
+
+## Data Visualisation Dashboards {background-image="https://www.tableau.com/sites/default/files/2022-07/Tableau%20Public%20homepage.gif" background-size="500px" background-position="left"}
+
+:::: {layout="[1,2.5]"}
+::: {#first-column}
+
+:::
+
+::: {#second-column}
+Tableau (Salesforce) is a **platform for creating interactive data visualisation dashboards**, comparable to Power BI (Microsoft) and Looker Studio (Alphabet). 
+
+It was widely used to present COVID-19 data globally.
+
+Originally released as licensed on-premise software, Tableau also offers an **open-access cloud version called Tableau Public** which has now 5 million of users account created and 11 million of dashboards available online.
+:::
+::::
 
 ## Tableau Public
 
-5 million of users account created and 11 million of dashboards available online. Students can assess what is possible as well as getting inspired.
+{{< li yucrjnnl trigger=loop delay=3000 >}} Students can assess what is possible as well as getting inspired.
 
-![](https://www.tableau.com/sites/default/files/2022-09/Past-Viz-of-the-Day.jpg){fig-align="center"}
+{{< li yucrjnnl trigger=loop delay=3000 >}} Free to use, students can immediately login and deep dive in the software.
 
-Free to use, students can immediately login and deep dive in the software.
+{{< li yucrjnnl trigger=loop delay=3000 >}} The only way to save is by publishing online. It makes them accountable and egger to perform.
 
-The only way to save is by publishing online. It makes them accountable and egger to perform.
+<br>
+
+Using these advantages, EDHEC Business School in France and UNICEF, in partnership with Tableau, have launched the **Student Data Viz Challenge**.
 
 ## The Student Data Viz Challenge
 
-Organised by the EDHEC Business School (France), UNICEF, and Tableau since 2021. Open to all students in Europe, their dashboard has to use some of the UNICEF organisation data to compete.
-
-### The Idea {{< fa lightbulb >}}
+Created in 2020, the challenge is open to all students in Europe to design the best dashboards using data from the UNICEF organisation.
 
 **Integrating the Challenge's instructions as an assignment in my Data Analytics and Storytelling course**, then leaving the opportunity for the students to participate to the actual challenge if they want to.
 
-### The Results {{< fa square-poll-vertical >}}
-
-Since 2021, DCU students have consistently featured in the Top 10! **The apex was in 2024 when 5 DCU students were placed in the top 10 including winner and runner-up! {{< fa trophy >}}**
+Since 2020, DCU students have consistently featured in the Top 10! **The highlight came in 2024 when 5 DCU students were placed in the Top 10 including winner and runner-up! {{< fa trophy >}}**
 
 ## The Student Data Viz Challenge
 
@@ -214,39 +246,37 @@ Since 2021, DCU students have consistently featured in the Top 10! **The apex wa
 
 ## Coding for Data Reporting
 
-While the first steps into coding are slow and tedious, using cloud based solutions to skip the critical moment of software installation is crucial.
+While the first steps into coding are slow and tedious, **using cloud-based solutions to bypass the frustrating stage of software installation is essential**.
 
-![](https://i.programmerhumor.io/2025/03/448dfe6d97c1bfac3981f73e172152ac.jpeg)
+:::{.center}
+![](https://i.programmerhumor.io/2025/03/448dfe6d97c1bfac3981f73e172152ac.jpeg){width=40%}
+:::
 
 ## Google Colab to Teach Python
 
-Google Colab is a cloud solution giving access for free to Jupyter Notebooks (interface to run Python Code).
+{{< li umuwriak trigger=loop >}} Google Colab is a cloud solution giving access for free to Jupyter Notebooks (interface to run Python Code).
 
-Initially released in 2017, it is now wildly adopted because it allows user to start coding without installing the language and regardless of their systems' characteristics.
+{{< li umuwriak trigger=loop >}} Initially released in 2017, it is now wildly adopted because it allows user to start coding without installing the language and regardless of their systems' characteristics.
 
-### The Results {{< fa square-poll-vertical >}}
-
-For Business Students in Master's, it offers a ideal platform to start learning without running into difficulties. When adding GenAI "vibe coding" solutions, all students can expend their skills very quickly.
+{{< li umuwriak trigger=loop >}} For Business Students in Master's, it offers a ideal platform to start learning without running into difficulties. When adding GenAI "vibe coding" solutions, all students can expend their skills very quickly.
 
 ## Posit Cloud to Teach R
 
-Posit Cloud is a freemium service providing an online environment with the R coding language and the RStudio Integrated Development Environment (IDE).
+{{< li umuwriak trigger=loop >}} Posit Cloud is a freemium service providing an online environment with the R coding language and the RStudio Integrated Development Environment (IDE).
 
-While the platform only offers 20h/month free for each student, it is enough to introduce the language and the IDE.
+{{< li umuwriak trigger=loop >}} While the platform only offers 20h/month free for each student, it is enough to introduce the language and the IDE.
 
-### The Results {{< fa square-poll-vertical >}}
+{{< li umuwriak trigger=loop >}} PhD Students from all disciplines thrive in this online coding environment. They can immediately start to investigate their data and obtain results.
 
-PhD. Students from all disciplines thrive in this online coding environment. They can immediately start to investigate their data and obtain results.
+## Going Forward {{< fa forward >}} {background="#43464B"}
 
-## Going Forward {{< fa forward >}}
+Supporting under represented groups starts by **adapting the way we teach**.
 
-Supporting under represented groups starts by adapting the way we teach.
+Tools are not neutral. Licensed and **on-premise software are not only intrusive but also generating inequalities** due to their initial complexity.
 
-Tools are not neutral. Licensed and on-premise software are not only intrusive but also generating inequalities due to their initial complexity.
+Teaching Data Analytics with cloud-based software, helps to **highlight the Ease-of-use and the Usefulness of the tools** which are used as leverage to promote learners success.
 
-Teaching Data Analytics with cloud-based software, helps to highlight the Ease-of-use and the Usefulness of the tools which are used as leverage to promote learners success.
-
-If curious about my teaching slides, all are available online here: <https://damien-dupre.github.io/courses/>
+If curious about my method, all slides are available online here: <https://damien-dupre.github.io/courses/>
 
 ## {background="#43464B"}
 
