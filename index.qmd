@@ -177,22 +177,6 @@ Cloud-based software mirrors traditional on-premise versions but is **hosted on 
 
 # Case Study 1: <br> Teaching Tableau
 
-## Data Visualisation Dashboards
-
-Tableau (Salesforce) is a **platform for creating interactive data visualisation dashboards**, comparable to Power BI (Microsoft) and Looker Studio (Alphabet). 
-
-It was widely used to present COVID-19 data globally.
-
-:::: {layout="[1,2]"}
-::: {#first-column}
-![](https://www.tableau.com/sites/default/files/2022-07/Tableau%20Public%20homepage.gif)
-:::
-
-::: {#second-column}
-Originally released as licensed on-premise software, Tableau also offers an **open-access cloud version called Tableau Public** which has now 5 million of users account created and 11 million of dashboards available online.
-:::
-::::
-
 ## Data Visualisation Dashboards {background-image="https://www.tableau.com/sites/default/files/2022-07/Tableau%20Public%20homepage.gif" background-size="500px" background-position="left"}
 
 :::: {layout="[1,2.5]"}
